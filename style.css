@@ -141,16 +141,19 @@ button {
   cursor: pointer;
 }
 
-@media (max-width: 630px) {
+
+@media screen and (max-width: 630px) {
   body {
     display: block;
-       }
+  }
   .container {
     width: 300px;
+    max-width: 100%;
     flex-direction: column;
   }
 
-  .left-container,.right-container {
+  .left-container,
+  .right-container {
     width: 100%;
   }
 
@@ -158,12 +161,12 @@ button {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
-}
-button:hover {
-  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  }
 }
 
-@media  (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .container {
     width: 100%;
   }
