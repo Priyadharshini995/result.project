@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  }
+  text-decoration: none;
+  list-style-type: none;
+}
 
 body {
   font-family: "Hanken Grotesk", sans-serif;
@@ -30,7 +32,7 @@ body {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  background-color: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  background : linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   padding: 30px;
   border-radius: 20px;
   gap: 20px;
@@ -131,7 +133,7 @@ button {
   padding: 15px;
   border-radius: 25px;
   border: none;
-  background-color: hsl(224, 30%, 27%);
+  background: hsl(224, 30%, 27%);
   color: white;
   font-weight: bold;
   font-size: 17px;
