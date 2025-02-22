@@ -144,7 +144,7 @@ button {
   cursor: pointer;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   button:hover {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   }
@@ -178,4 +178,5 @@ button {
   .container {
     width: 100%;
   }
+  
 }
